@@ -1,32 +1,12 @@
-# =========================
-# Python / Streamlit
-# =========================
-
-# Entorno virtual
-venv/
-
-# Variables de entorno (credenciales)
+# Variables sensibles
 .env
+.envcontainer
+*.ppk
 
-# Caché de Python
+# Python
 __pycache__/
 *.pyc
-*.pyo
 
-# =========================
-# Configuración opcional
-# =========================
-
-# Dev containers
-.devcontainer/
-
-# =========================
-# Sistema operativo
-# =========================
-
-# Windows
-Thumbs.db
-
-# macOS
+# Sistema
 .DS_Store
- 
+Thumbs.db
